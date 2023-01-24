@@ -1,0 +1,24 @@
+.background {
+    max-width : 100%;
+    background-repeat: no-repeat;
+    position: fixed;
+}
+#video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+.color {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding-left: 200px;
+    padding-top: 50px;
+    padding-right: 100px;
+    box-sizing: border-box;
+    height: 100vh;
+}
+iframe {
+    padding-bottom: 30px;
+    margin-left: 400px;
+}
