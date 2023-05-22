@@ -5,7 +5,31 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <div id="game-board"></div>
+    <div id="game-container">
+        <div id="game-board"></div>
+        <div id="menu">
+            <h2>Rắn săn mồi</h2>
+            <div class="menu-item">
+                <label for="difficulty">Độ khó:</label>
+                <select id="difficulty">
+                    <option value="easy">Dễ</option>
+                    <option value="medium">Trung bình</option>
+                    <option value="hard">Khó</option>
+                </select>
+            </div>
+            <div class="menu-item">
+                <label for="snake-style">Kiểu rắn:</label>
+                <select id="snake-style">
+                    <option value="default">Mặc định</option>
+                    <option value="realistic">Chân thực</option>
+                </select>
+            </div>
+            <button id="start-button">Bắt đầu</button>
+        </div>
+        <div id="scoreboard">
+            <div id="score">Điểm số: 0</div>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
